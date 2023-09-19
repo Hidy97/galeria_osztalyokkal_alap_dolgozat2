@@ -31,7 +31,7 @@ $(function () {
     });
 
     $(window).on("kepKatt", (event) => {
-        console.log()
+        console.log(event.detail)
     })
    
 });
