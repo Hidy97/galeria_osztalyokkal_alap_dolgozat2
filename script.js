@@ -30,5 +30,8 @@ $(function () {
         const galeriaKep = new Kartya(elem, index, GALERIA);
     });
 
+    $(window).on("kepKatt", (event) => {
+        console.log()
+    })
    
 });
